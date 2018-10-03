@@ -2,7 +2,7 @@
 CashMachineBlueJ
 ****************
 
-An simple cash account <-> bank system implementation (very loosely modelled!)
+A simple cash account <-> bank system implementation (very loosely modelled!)
 
 This project uses JavaFX for the user interface toolkit. JavaFX is a software platform for creating 
 and delivering desktop applications, as well as rich Internet applications (RIAs) 
