@@ -87,18 +87,18 @@ You need not do these things in this order. Do as many as you can. When you fini
 make sure the project runs. (Else the Board... well, disappointment lies that direction.)
      ---------------------
 
-* make the account display more user friendly
+* Make the account display more user friendly
   * add a Form layout that has separate TextFields for each piece of account info. 
   * You'll probably find a layout that lets you do this, a little like the FlowPane.
-    make the login stuff more clear
-  * disable the three buttons that operate on an account until a login happens 
+  * Make the login stuff more clear
+  * Disable the three buttons that operate on an account until a login happens 
   * and then enable them. add another TextField for the amount entries. 
-  * make it different from the fieldwhere you set the account ID.
+  * Make it different from the fieldwhere you set the account ID.
 
-* enable the amount entries to be floating point numbers instead of 
+* Enable the amount entries to be floating point numbers instead of 
   just integers when doing deposits and withdrawals.
 
-* add a menu with a list of accounts in it and the menu action switched 
+* Add a menu with a list of accounts in it and the menu action switched 
   to that account. You may find that JavaFX already has such a thing.
 
 **** Add a New Account Window(!) that takes in the info required thru 
