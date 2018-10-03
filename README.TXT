@@ -33,7 +33,8 @@ Your effort will be met with promotions, parades, and stock options. (no, just k
 Lab Brief
 =========
 
-Notice the structure of the current project before you start. 
+Notice the structure of the current project before you start. Read thru the 
+code up here on git.zipcode.rocks.
 Read thru the code. READ THRU THE CODE.
 READ THRU THE CODE.
 ==================
@@ -60,6 +61,12 @@ Notice when reading the code...
 
 Things to Change for the Lab
 ============================
+
+**FIRST,** fork this repo into your own account. 
+           =====================================
+
+**After getting each of these items completed, be sure to do a 'git commit'
+to save you work. Never Lose Code. NEVER LOSE CODE. EVER. :-)**
 
 * Add more accounts to the default constructor of the Bank class.
 when you overdraft an account, print an alert message to the areaInfo object
