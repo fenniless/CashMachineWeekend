@@ -85,8 +85,8 @@ Additional things to add
 
 You need not do these things in this order. Do as many as you can. When you finish,
 make sure the project runs. (Else the Board... well, disappointment lies that direction.)
-    -----------------------
-      
+     ---------------------
+
 * make the account display more user friendly
   * add a Form layout that has separate TextFields for each piece of account info. 
   * You'll probably find a layout that lets you do this, a little like the FlowPane.
