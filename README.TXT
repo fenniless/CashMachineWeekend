@@ -78,7 +78,7 @@ NOW, maybe you're ready to start making changes.
 
 
 * Add more accounts to the default constructor of the Bank class.
-when you overdraft an account, print an alert message to the areaInfo object
+* When you overdraft an account, print an alert message to the areaInfo object on the window.
 
 Additional things to add
 ------------------------
