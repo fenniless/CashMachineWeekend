@@ -83,12 +83,14 @@ NOW, maybe you're ready to start making changes.
 Additional things to add
 ------------------------
 
+You need not do these things in this order. Do as many as you can. When you finish,
+make sure the project runs. (Else the Board... well, disappointment lies that direction.)
+    -----------------------
+      
 * make the account display more user friendly
-
-* add a Form layout that has separate TextFields for each piece of account info. 
-* You'll probablyfind a layout that lets you do this, a little like the FlowPane.
-make the login stuff more clear
-
+  * add a Form layout that has separate TextFields for each piece of account info. 
+  * You'll probably find a layout that lets you do this, a little like the FlowPane.
+    make the login stuff more clear
   * disable the three buttons that operate on an account until a login happens 
   * and then enable them. add another TextField for the amount entries. 
   * make it different from the fieldwhere you set the account ID.
