@@ -31,7 +31,7 @@ Your effort will be met with promotions, parades, and stock options. (no, just k
 
 Notice the structure of the current project before you start. Read thru the code. READ THRU THE CODE.
 
-## Now, Switch across to the README.TXT file to see what you need to do for this lab.
+## Now, Switch across to the [README.TXT](README.TXT) file to see what you need to do for this lab.
 ___
 
 NB:
