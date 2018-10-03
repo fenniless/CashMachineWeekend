@@ -62,11 +62,20 @@ Notice when reading the code...
 Things to Change for the Lab
 ============================
 
-**FIRST,** fork this repo into your own account. 
-           =====================================
+FIRST, fork this repo into your own account. 
+       =====================================
 
-**After getting each of these items completed, be sure to do a 'git commit'
-to save you work. Never Lose Code. NEVER LOSE CODE. EVER. :-)**
+     After getting each of these items completed, 
+     be sure to do a 'git commit' to save you work. 
+     Never Lose Code. 
+     NEVER LOSE CODE. EVER. :-)
+
+How about making a new git branch, named "dev" from the master branch for you to do all
+your work in?? (what great idea!)
+
+NOW, maybe you're ready to start making changes. 
+
+
 
 * Add more accounts to the default constructor of the Bank class.
 when you overdraft an account, print an alert message to the areaInfo object
