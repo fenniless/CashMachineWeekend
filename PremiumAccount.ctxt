@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PremiumAccount
+comment0.text=\n\ @author\ ZipCodeWilmington\n
+comment1.params=amount
+comment1.target=boolean\ canWithdraw(int)
+numComments=2

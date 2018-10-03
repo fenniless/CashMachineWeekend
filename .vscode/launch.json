@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CashMachineApp",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "rocks.zipcode.atm.CashMachineApp",
+            "args": "",
+            "projectName": "CashMachine"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CashMachineApp",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "com.almasb.atm.CashMachineApp",
+            "args": "",
+            "projectName": "CashMachine"
+        }
+    ]
+}

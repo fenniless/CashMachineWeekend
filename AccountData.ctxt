@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AccountData
+comment0.text=\n\ @author\ ZipCodeWilmington\n
+comment1.params=id\ name\ email\ balance
+comment1.target=AccountData(int,\ java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=int\ getId()
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getEmail()
+comment5.params=
+comment5.target=int\ getBalance()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
