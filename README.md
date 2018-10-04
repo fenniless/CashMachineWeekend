@@ -17,14 +17,15 @@ The point of this lab is to read thru some existing code, in this case, a progra
 launches a window on your computer and lets you play with a couple of "banking accounts".
 You should run the app, learn how to use it, so you understand what it does. It is not,
 shall we say, user-friendly. So you may find what you have to do to make it work somewhat
-awkward. 
+awkward.
 
-Then, you should read thru the code seeing how the code actually implements the things you 
-see when you run the code. Find the "main" routine, which is where the app starts up. Trace from there
-to see what code gets called where and when. Trace how the operations of the code work.
+Then, you should read thru the code repository seeing how the code actually implements the 
+things you see when you run the code. Find the "main" routine, which is where the app 
+starts up. Trace from there to see what code gets called where and when. Trace how the 
+operations of the code work.
 
 Finally, you are to add some new functionality to the app, to make it "more useful, powerful &
-more rewarding for the user". 
+more rewarding for the user".  
 Your effort will be met with promotions, parades, and stock options. (no, just kidding).
 
 ## Lab Brief

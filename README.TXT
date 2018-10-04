@@ -22,7 +22,7 @@ You should run the app, learn how to use it, so you understand what it does. It 
 shall we say, user-friendly. So you may find what you have to do to make it work somewhat
 awkward. 
 
-Then, you should read thru the code seeing how the code actually implements the things you 
+Then, you should read thru the code repository seeing how the code actually implements the things you 
 see when you run the code. Find the "main" routine, which is where the app starts up. Trace from there
 to see what code gets called where and when. Trace how the operations of the code work.
 
@@ -47,16 +47,17 @@ Read them all, trying to get an idea of how it all goes together.
 
 Notice when reading the code...
 
-- Each account has: id, name, email, balance
+- Each account has: id, name, email, balance; find that in a class.
 - What does Premium account do that Basic does not?
 - What are the two starter account already built into the project?
-- Trace how the Cash machine sets the account
--- enter account id to "login to account"
+- Trace how the Cash machine sets the current account
+-- enter account id and "login to account"
 - Trace how a deposit happens
 -- enter a number then click deposit
 - Trace how a withdrawal happens
 -- enter a number then click withdraw
 - How does "exit" log out of the account?
+- What might be a better name for "exit"?
 
 
 Things to Change for the Lab
@@ -67,6 +68,7 @@ FIRST, fork this repo into your own account.
 
      After getting each of these items completed, 
      be sure to do a 'git commit' to save you work. 
+     Learn your git.
      Never Lose Code. 
      NEVER LOSE CODE. EVER. :-)
 
@@ -93,7 +95,7 @@ make sure the project runs. (Else the Board... well, disappointment lies that di
   * Make the login stuff more clear
   * Disable the three buttons that operate on an account until a login happens 
   * and then enable them. add another TextField for the amount entries. 
-  * Make it different from the fieldwhere you set the account ID.
+  * Make it different from the TextField where you set the account ID.
 
 * Enable the amount entries to be floating point numbers instead of 
   just integers when doing deposits and withdrawals.
