@@ -1,5 +1,5 @@
 ****************
-CashMachineBlueJ
+  CashMachine
 ****************
 
 A simple cash account <-> bank system implementation (very loosely modelled!)
