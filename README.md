@@ -26,7 +26,7 @@ operations of the code work.
 
 Finally, you are to add some new functionality to the app, to make it "more useful, powerful &
 more rewarding for the user".  
-Your effort will be met with promotions, parades, and stock options. (no, just kidding).
+Your effort will be met with promotions, parades, and stock options. (*no, just kidding*).
 
 ## Lab Brief
 
