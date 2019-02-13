@@ -28,13 +28,87 @@ Finally, you are to add some new functionality to the app, to make it "more usef
 more rewarding for the user".  
 Your effort will be met with promotions, parades, and stock options. (no, just kidding).
 
-## Lab Brief
+Lab Brief
+=========
 
 Notice the structure of the current project before you start. Read thru the 
-code up here on git.zipcode.rocks.
-Read thru the code. READ THRU THE CODE.
+code up here.
+##### Read thru the code. 
+#### READ THRU THE CODE.
+### READ THRU THE CODE.
+==================
 
-## Now, Switch across to the [README.TXT](README.TXT) file to see what you need to do for this lab.
+- Find the 2 Account Classes: Basic, Premium
+- Find the superclass of the 2 account classes.
+- Find the other classes including Bank, Account, CashMachine. Read thru them all.
+
+Read them all, trying to get an idea of how it all goes together.
+
+Notice when reading the code...
+
+- Each account has: id, name, email, balance; find that in a class.
+- What does Premium account do that Basic does not?
+- What are the two starter account already built into the project?
+- Trace how the Cash machine sets the current account
+-- enter account id and "login to account"
+- Trace how a deposit happens
+-- enter a number then click deposit
+- Trace how a withdrawal happens
+-- enter a number then click withdraw
+- How does "exit" log out of the account?
+- What might be a better name for "exit"?
+
+
+Things to Change for the Lab
+============================
+
+FIRST, fork this repo into your own account. 
+       =====================================
+
+     After getting each of these items completed, 
+     be sure to do a 'git commit' to save you work. 
+     Learn your git.
+     Never Lose Code. 
+     NEVER LOSE CODE. EVER. :-)
+
+How about making a new git branch, named "dev" from the master branch for you to do all
+your work in?? (what great idea!)
+
+NOW, maybe you're ready to start making changes. 
+
+
+
+* Add more accounts to the default constructor of the Bank class.
+* When you overdraft an account, print an alert message to the areaInfo object on the window.
+
+Additional things to add
+------------------------
+
+You need not do these things in this order. Do as many as you can. When you finish,
+make sure the project runs. (Else the Board... well, disappointment lies that direction.)
+     ---------------------
+
+* Make the account display more user friendly
+  * add a Form layout that has separate TextFields for each piece of account info. 
+  * You'll probably find a layout that lets you do this, a little like the FlowPane.
+  * Make the login stuff more clear
+  * Disable the three buttons that operate on an account until a login happens 
+  * and then enable them. add another TextField for the amount entries. 
+  * Make it different from the TextField where you set the account ID.
+
+* Enable the amount entries to be floating point numbers instead of 
+  just integers when doing deposits and withdrawals.
+
+* Add a menu with a list of accounts in it and the menu action switched 
+  to that account. You may find that JavaFX already has such a thing.
+
+**** Add a New Account Window(!) that takes in the info required thru 
+     TextFields and creates the correct objects so that is can be changed 
+     like the pre-wired accounts.
+
+NB: When googling for information on how to do all this, 
+be sure you start every query with "javafx " and your other search terms. 
+That will limit the results to things that probably are closer to what you need.
 ___
 
 NB:
