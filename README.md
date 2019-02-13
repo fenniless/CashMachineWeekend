@@ -28,16 +28,15 @@ Finally, you are to add some new functionality to the app, to make it "more usef
 more rewarding for the user".  
 Your effort will be met with promotions, parades, and stock options. (no, just kidding).
 
-Lab Brief
-=========
+## Lab Brief
 
 Notice the structure of the current project before you start. Read thru the 
 code up here.
 ##### Read thru the code. 
 #### READ THRU THE CODE.
 ### READ THRU THE CODE.
-==================
 
+Now:
 - Find the 2 Account Classes: Basic, Premium
 - Find the superclass of the 2 account classes.
 - Find the other classes including Bank, Account, CashMachine. Read thru them all.
@@ -59,11 +58,9 @@ Notice when reading the code...
 - What might be a better name for "exit"?
 
 
-Things to Change for the Lab
-============================
+### Things to Change for the Lab
 
-FIRST, fork this repo into your own account. 
-       =====================================
+FIRST, fork this repo into your own account.
 
 After getting each of these items completed, be sure to do a 'git commit' to save you work. 
 * Learn your git.
@@ -75,17 +72,14 @@ your work in?? (what great idea!)
 
 NOW, maybe you're ready to start making changes. 
 
-
-
 * Add more accounts to the default constructor of the Bank class.
 * When you overdraft an account, print an alert message to the areaInfo object on the window.
 
-Additional things to add
-------------------------
+### Additional things to add
 
 You need not do these things in this order. Do as many as you can. When you finish,
-make sure the project runs. (Else the Board... well, disappointment lies that direction.)
-     ---------------------
+make **sure the project runs**. (Else the Board... well, disappointment lies that direction.)
+
 
 * Make the account display more user friendly
   * add a Form layout that has separate TextFields for each piece of account info. 
