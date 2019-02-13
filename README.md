@@ -95,9 +95,8 @@ make **sure the project runs**. (Else the Board... well, disappointment lies tha
 * Add a menu with a list of accounts in it and the menu action switched 
   to that account. You may find that JavaFX already has such a thing.
 
-**** Add a New Account Window(!) that takes in the info required thru 
-     TextFields and creates the correct objects so that is can be changed 
-     like the pre-wired accounts.
+**** Add a New Account Window(!) that takes in the info required thru TextFields and creates the correct objects so that is can be changed like the pre-wired accounts.
+
 
 NB: When googling for information on how to do all this, 
 be sure you start every query with "javafx " and your other search terms. 
