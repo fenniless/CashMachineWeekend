@@ -65,11 +65,10 @@ Things to Change for the Lab
 FIRST, fork this repo into your own account. 
        =====================================
 
-     After getting each of these items completed, 
-     be sure to do a 'git commit' to save you work. 
-     Learn your git.
-     Never Lose Code. 
-     NEVER LOSE CODE. EVER. :-)
+After getting each of these items completed, be sure to do a 'git commit' to save you work. 
+* Learn your git.
+* Never Lose Code. 
+* NEVER LOSE CODE. EVER. :-)
 
 How about making a new git branch, named "dev" from the master branch for you to do all
 your work in?? (what great idea!)
@@ -109,7 +108,3 @@ make sure the project runs. (Else the Board... well, disappointment lies that di
 NB: When googling for information on how to do all this, 
 be sure you start every query with "javafx " and your other search terms. 
 That will limit the results to things that probably are closer to what you need.
-___
-
-NB:
-When googling for information on how to do all this, be sure you start every query with "javafx " and your other search terms. That will limit the results to things that probably are closer to what you need.
