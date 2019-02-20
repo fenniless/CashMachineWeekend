@@ -1,5 +1,6 @@
 package rocks.zipcode.atm.bank;
 
+import javafx.scene.control.TextArea;
 import rocks.zipcode.atm.ActionResult;
 
 import java.util.HashMap;
@@ -20,6 +21,14 @@ public class Bank {
         accounts.put(2000, new PremiumAccount(new AccountData(
                 2000, "Example 2", "example2@gmail.com", 200
         )));
+
+        accounts.put(3000, new PremiumAccount(new AccountData(
+                3000, "Example 3", "example3@gmail.com", 2000
+        )));
+
+        accounts.put(4000, new PremiumAccount(new AccountData(
+                4000, "Example 4", "example4@gmail.com", 4000
+        )));
     }
 
     public ActionResult<AccountData> getAccountById(int id) {
@@ -32,21 +41,24 @@ public class Bank {
         }
     }
 
-    public ActionResult<AccountData> deposit(AccountData accountData, int amount) {
+    public ActionResult<AccountData> deposit(AccountData accountData, float amount) {
         Account account = accounts.get(accountData.getId());
         account.deposit(amount);
 
         return ActionResult.success(account.getAccountData());
     }
 
-    public ActionResult<AccountData> withdraw(AccountData accountData, int amount) {
+    public ActionResult<AccountData> withdraw(AccountData accountData, float amount) {
         Account account = accounts.get(accountData.getId());
         boolean ok = account.withdraw(amount);
 
         if (ok) {
             return ActionResult.success(account.getAccountData());
         } else {
-            return ActionResult.fail("Withdraw failed: " + amount + ". Account has: " + account.getBalance());
+
+            String errorMessage = "Withdraw failed: " + amount + ". Account has: " + account.getBalance();
+
+            return ActionResult.fail(errorMessage);
         }
     }
 }
