@@ -8,18 +8,21 @@ public abstract class Account {
     private AccountData accountData;
 
     public Account(AccountData accountData) {
+
         this.accountData = accountData;
     }
 
     public AccountData getAccountData() {
+
         return accountData;
     }
 
-    public void deposit(int amount) {
+    public void deposit(float amount) {
+
         updateBalance(getBalance() + amount);
     }
 
-    public boolean withdraw(int amount) {
+    public boolean withdraw(float amount) {
         if (canWithdraw(amount)) {
             updateBalance(getBalance() - amount);
             return true;
@@ -28,15 +31,16 @@ public abstract class Account {
         }
     }
 
-    protected boolean canWithdraw(int amount) {
+    protected boolean canWithdraw(float amount) {
+
         return getBalance() >= amount;
     }
 
-    public int getBalance() {
+    public float getBalance() {
         return accountData.getBalance();
     }
 
-    private void updateBalance(int newBalance) {
+    private void updateBalance(float newBalance) {
         accountData = new AccountData(accountData.getId(), accountData.getName(), accountData.getEmail(),
                 newBalance);
     }

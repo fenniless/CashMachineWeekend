@@ -1,5 +1,8 @@
 package rocks.zipcode.atm;
 
+import javafx.scene.control.TextArea;
+import javafx.util.Pair;
+import rocks.zipcode.atm.bank.Account;
 import rocks.zipcode.atm.bank.AccountData;
 import rocks.zipcode.atm.bank.Bank;
 
@@ -13,14 +16,17 @@ public class CashMachine {
 
     private final Bank bank;
     private AccountData accountData = null;
+    private TextArea areaInfo;
 
     public CashMachine(Bank bank) {
+
         this.bank = bank;
     }
 
     private Consumer<AccountData> update = data -> {
         accountData = data;
     };
+
 
     public void login(int id) {
         tryCall(
@@ -29,7 +35,7 @@ public class CashMachine {
         );
     }
 
-    public void deposit(int amount) {
+    public void deposit(float amount) {
         if (accountData != null) {
             tryCall(
                     () -> bank.deposit(accountData, amount),
@@ -38,13 +44,14 @@ public class CashMachine {
         }
     }
 
-    public void withdraw(int amount) {
+    public void withdraw(float amount) {
+//        getResultWindow().appendText("hello world");
         if (accountData != null) {
             tryCall(
-                    () -> bank.withdraw(accountData, amount),
-                    update
+                    () -> bank.withdraw(accountData, amount), update
             );
         }
+
     }
 
     public void exit() {
@@ -55,7 +62,7 @@ public class CashMachine {
 
     @Override
     public String toString() {
-        return accountData != null ? accountData.toString() : "Try account 1000 or 2000 and click submit.";
+        return accountData != null ? accountData.toString() : "Please Login First";
     }
 
     private <T> void tryCall(Supplier<ActionResult<T> > action, Consumer<T> postAction) {
@@ -71,5 +78,14 @@ public class CashMachine {
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
+    }
+
+
+    public void setResultWindow(TextArea areaInfo) {
+        this.areaInfo = areaInfo;
+    }
+
+    public TextArea getResultWindow(){
+        return this.areaInfo;
     }
 }
